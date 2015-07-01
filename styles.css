@@ -1,17 +1,20 @@
-* {
+html {
   box-sizing: border-box;
 }
+*,
 *:before,
 *:after {
   box-sizing: inherit;
 }
-html,
-body {
-  font-size: 18px;
+html {
+    height: 100%;
+    min-height: 100%;
 }
 body {
+  min-height: 100%;
   margin: 0;
   font-family: Helvetica;
+  font-size: 18px;
 }
 .logo {
   height: 80px;
@@ -21,14 +24,16 @@ body {
 .post {
 }
 .post__header {
-  position: absolute;
+  /*display: inline-block;*/
+  position: fixed;
   top: 0;
   bottom: 0;
   width: 50%;
+  /*height: 100%;*/
   background-image: url('./images/hunkahunkakittylove.jpg');
   /*background-repeat: no-repeat;*/
-  background-position: center center;
   background-size: cover;
+  background-position: 50% 50%;
   background-color: ##DCBF79;
   color: #FFF;
 }
@@ -66,13 +71,14 @@ h1 {
 }
 .post__content {
   position: absolute;
+  /*display: inline-block;*/
   width: 50%;
   max-width: 600px;
   margin-left: 50%;
   padding: 0 40px 40px 40px;
   line-height: 27px;
   color: #6D6D6D;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 .post__content img {
   width: 80%;
