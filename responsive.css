@@ -1,5 +1,5 @@
 @media screen and (max-width: 680px) {
-  .logo {
+  .post__header__logo {
     height: 40px;
     margin: 0 20px;
     border-bottom: none;

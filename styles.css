@@ -12,7 +12,7 @@ body {
   font-family: Helvetica;
   font-size: 18px;
 }
-.logo {
+.post__header__logo {
   height: 80px;
   margin: 0 20px;
   border-bottom: 2px solid #fff;
