@@ -1,0 +1,26 @@
+@media screen and (max-width: 680px) {
+  .post__headerLogo {
+    height: 40px;
+    margin: 0 20px;
+    border-bottom: none;
+  }
+  .post__header {
+    position: absolute;
+    top: 0;
+    bottom: 60%;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .post__contentHeader {
+    padding: 40px;
+    border-bottom: none;
+  }
+  .post__content {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5%;
+  }
+}
